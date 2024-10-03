@@ -1,0 +1,80 @@
+.Memberships {
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Memberships_header {
+  text-align: center;
+
+  padding: 5rem;
+}
+.Memberships_header h1 {
+  font-size: 4rem;
+  padding: 1rem;
+}
+.Memberships_header p {
+  font-size: 1.2rem;
+  color: gray;
+}
+.Memberships_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 6rem;
+}
+.Memberships_box {
+  border-radius: 2.25rem;
+  background-color: rgb(28, 28, 28);
+  padding: 3rem;
+  margin: 0.5rem;
+}
+.Memberships_box h1 {
+  color: gray;
+  text-align: center;
+  font-size: 2.2rem;
+}
+.Memberships_box p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0 2rem;
+}
+.Memberships button {
+  margin: 3rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.Memberships_button_explore {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1025px) {
+  .Memberships_cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 426px) {
+  .Memberships_header h3 {
+    font-size: 1rem;
+  }
+  .Memberships_header h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .Memberships_box h1 {
+    font-size: 1.5rem;
+  }
+  .Memberships_box p {
+    font-size: 1rem;
+  }
+}

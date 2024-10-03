@@ -1,0 +1,129 @@
+.popular_topics {
+  margin: 5rem 8rem;
+}
+.popular_topics h1 {
+  font-size: 4rem;
+  padding: 1rem;
+}
+.popular_topics_buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 5rem;
+}
+.popular_topics_buttons button {
+  background-color: rgb(57, 57, 57);
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 0.2rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.popular_topics_buttons button:hover {
+  background-color: white;
+  color: black;
+}
+.popular_topics_grid1 {
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 5rem;
+}
+.popular_topics_grid1 img {
+  width: 100%;
+  border-radius: 2rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.popular_topics_grid_content {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 50%;
+}
+.popular_topics_grid_content h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.popular_topics_grid_content button {
+  padding: 1rem;
+  background-color: transparent;
+  border: 3px solid white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.popular_topics_grid_content button:hover {
+  background-color: white;
+  color: black;
+}
+.popular_topic_grid2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.grid_item {
+  width: 100%;
+  padding: 2rem;
+}
+.grid_item:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+.grid_item img {
+  border-radius: 2rem;
+}
+.grid_item h3 {
+  margin-top: 2rem;
+  color: gray;
+}
+.grid_item h1 {
+  font-size: 1.8rem;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1024px) {
+  .popular_topics {
+    margin: 1rem 1rem;
+  }
+  .popular_topics h1 {
+    font-size: 2rem;
+  }
+  .popular_topics_grid1 img {
+    width: 100%;
+  }
+  .popular_topics_grid_content h4 {
+    font-size: 1rem;
+  }
+  .popular_topics_grid_content h1 {
+    font-size: 1.3rem;
+  }
+  .popular_topics_grid_content button {
+    font-size: 0.8rem;
+    padding: 0.1rem;
+  }
+  .popular_topic_grid2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .popular_topic_grid2 h4 {
+    font-size: 1rem;
+  }
+  .popular_topic_grid2 h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .popular_topics_buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,22 @@
+.whyJoin_content {
+  margin: 3rem 8rem;
+}
+.whyJoin_content h1 {
+  margin: 1rem 0;
+}
+.whyJoin_content p {
+  color: gray;
+  font-size: 1.1rem;
+}
+.virginActiveBanner img {
+  max-width: 100%;
+}
+.banner {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .whyJoin_content {
+    margin: 1rem;
+  }
+}
